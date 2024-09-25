@@ -1,20 +1,21 @@
 
-# Projeto Java - Exercícios de Lógica e Cálculo
+# Estágio Análise e Desenvolvimento - São Paulo Trabalho Remoto
 
-Este projeto contém uma série de exercícios de lógica de programação desenvolvidos em Java. Cada classe aborda um problema específico, com a implementação de soluções claras e documentadas. Este README fornece uma visão geral dos exercícios, descreve o funcionamento de cada programa, e oferece instruções de execução.
+Este projeto contém uma série de exercícios desenvolvidos em Java. Cada classe aborda um problema específico, com a implementação de soluções claras e documentadas. Este README fornece uma visão geral dos exercícios, descreve o funcionamento de cada programa, e oferece instruções de execução.
 
 ## Índice
 
 1. [Introdução](#introdução)
 2. [Tecnologias Utilizadas](#tecnologias-utilizadas)
 3. [Exercícios](#exercícios)
-   - [1. Fibonacci](#1-fibonacci)
-   - [2. Percentual de Faturamento](#2-percentual-de-faturamento)
+   - [1. Soma de Valores](#1-soma-de-valores)
+   - [2. Fibonacci](#2-fibonacci)
    - [3. Faturamento Diário](#3-faturamento-diário)
-   - [4. Inversão de String](#4-inversão-de-string)
-   - [5. Soma de Valores](#5-soma-de-valores)
-4. [Como Executar](#como-executar)
-5. [Autor](#autor)
+   - [4. Percentual de Faturamento](#4-percentual-de-faturamento)
+   - [5. Inversão de String](#5-inversão-de-string)
+   
+5. [Como Executar](#como-executar)
+6. [Autor](#autor)
 
 ---
 
@@ -32,17 +33,17 @@ Cada classe está devidamente documentada utilizando o padrão Javadoc, explican
 
 ## Exercícios
 
-### 1. Fibonacci
+### 1. Soma de Valores
+
+Classe: `Soma.java`
+
+**Descrição**: O programa calcula a soma dos números inteiros de 1 até um índice pré-definido (neste caso, 13). O cálculo é feito utilizando um laço `while`.
+
+### 2. Fibonacci
 
 Classe: `Fibonacci.java`
 
 **Descrição**: Este programa verifica se um número informado pelo usuário pertence à sequência de Fibonacci. Utiliza streams e um método de iteração para calcular os valores da sequência.
-
-### 2. Percentual de Faturamento
-
-Classe: `FaturamentoDistribuidora.java`
-
-**Descrição**: O programa calcula o percentual de faturamento de diferentes estados brasileiros (SP, RJ, MG, ES e outros) em relação ao faturamento total da distribuidora. Os resultados são exibidos em formato percentual.
 
 ### 3. Faturamento Diário
 
@@ -50,17 +51,17 @@ Classe: `FaturamentoDiario.java`
 
 **Descrição**: O programa calcula o menor e maior valor de faturamento diário de uma distribuidora, ignorando dias sem faturamento, e também o número de dias em que o faturamento foi superior à média mensal.
 
-### 4. Inversão de String
+### 4. Percentual de Faturamento
+
+Classe: `FaturamentoDistribuidora.java`
+
+**Descrição**: O programa calcula o percentual de faturamento de diferentes estados brasileiros (SP, RJ, MG, ES e outros) em relação ao faturamento total da distribuidora. Os resultados são exibidos em formato percentual.
+
+### 5. Inversão de String
 
 Classe: `InverterString.java`
 
 **Descrição**: Este programa inverte os caracteres de uma string fornecida pelo usuário, sem utilizar funções prontas como `reverse`.
-
-### 5. Soma de Valores
-
-Classe: `Soma.java`
-
-**Descrição**: O programa calcula a soma dos números inteiros de 1 até um índice pré-definido (neste caso, 13). O cálculo é feito utilizando um laço `while`.
 
 ## Como Executar
 
